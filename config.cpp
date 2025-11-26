@@ -94,7 +94,7 @@ class CfgAmmo
         suppressionRadiusHit=8;
         cartridge="FxCartridge_762x39";
     };*/
-    class ld3k_B_762x35_Ball_110gr: BulletBase //  Hornady Law Enforcement .300 Blackout 110gr TAP Urban according to HK437 Handbook https://www.heckler-koch.com/Downloads/Produktinformationen/EN/HK437%20Handbook%20EN.pdf
+    class ld3k_B_762x35_Ball_110gr: BulletBase // Hornady Law Enforcement .300 Blackout 110gr TAP Urban according to HK437 Handbook https://www.heckler-koch.com/Downloads/Produktinformationen/EN/HK437%20Handbook%20EN.pdf
     {
         ACE_caliber=7.85; // https://bobp.cip-bobp.org/uploads/tdcc/tab-i/300-aac-blackout-180801-en.pdf
         ACE_bulletLength=29.97; // 1.180" https://static.hornady.media/presscenter/docs/1410998618-300-Blackout-110gr-TAP-Urban.pdf
@@ -169,7 +169,7 @@ class CfgAmmo
             distance=6.7082; // B_127x54_Ball, B_762x51_Ball 8.48528
         };
     };
-    class ld3k_B_762x35_Ball_150gr: ld3k_B_762x35_Ball_110gr //  Federal .300 Blackout 150gr Full Metal Jacket Boat-Tail
+    class ld3k_B_762x35_Ball_150gr: ld3k_B_762x35_Ball_110gr // Federal .300 Blackout 150gr Full Metal Jacket Boat-Tail
     {
         ACE_bulletLength=28.22; // 1.111" https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE300BLK1.html
         ACE_bulletMass=9.72; // 110gr
@@ -1829,7 +1829,6 @@ class CfgWeapons
             dispersion=0.000468; // 2.86 MOA (*0.562*0.000291), 0.562 value from https://github.com/acemod/ACE3/pull/5755
         };
     };
-
     class JCA_muzzle_snds_tactical_base: ItemCore
     {
         class ItemInfo: InventoryMuzzleItem_Base_F
